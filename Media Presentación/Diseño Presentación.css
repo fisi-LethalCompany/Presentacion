@@ -1,0 +1,22 @@
+body { background-image: url( Fondo.jpg); width: 70%; margin: auto; background-repeat: no-repeat;
+    background-size: cover;}
+
+h1 { font-size: 45px; text-align: center; color: red;
+    text-decoration: underline double ;}
+
+h2 { font-size: 40px; color: red; text-decoration: underline
+    double; margin-inline-start: 1%; margin-inline-end: 1%; text-align: center; }
+
+p { font-size: 22px; color: white; }
+
+#año { text-align: center; }
+
+#datos { width: 60%; background-image: url(Fondo\ papel.jpg); margin: auto; border: solid 10px red;}
+
+#logos { display:flow-root; }
+
+#unap { width: 25%; float: left; }
+
+#fisi { width: 9%; float: right; }
+
+#inico { display: flex; justify-content: center; }
