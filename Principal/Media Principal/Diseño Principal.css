@@ -1,0 +1,28 @@
+body { background-image: url(Fondo.jpg); background-repeat: no-repeat;
+    background-size: cover; width: 60%; margin: auto;}
+
+h1 { font-size: 35px; text-align: center; color: red;
+    text-decoration: underline double ;}
+
+h2 { font-size: 28px; color: red; text-decoration: underline
+    double;}
+
+h3 { font-size: 22px; color: red; text-decoration: underline
+        double; margin-inline-start: 1%; margin-inline-end: 1%;}
+
+p { font-size: 22px; color: white; }
+
+#media { display: flex; justify-content: center; }
+
+#guía { width: 70%; background-image: url(Fondo\ papel.jpg); margin: auto;
+    border: solid 3px red; text-align: center;}
+
+img { width: 50%; border: solid 3px red; }
+
+video { width: 80%;}
+
+#arriba { border: solid 3px white; width: 60px; display:
+    scroll; position: fixed; bottom: 80px; right: 10px;}
+
+#presentación { border: solid 3px white; width: 60px; display:
+    scroll; position: fixed; bottom: 10px; right: 10px;}
