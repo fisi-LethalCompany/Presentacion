@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Jugador</title>
+        <link rel="icon" href="Media Secundario1/Favicon.png">
+		<link rel="stylesheet" href="Media Secundario1/Diseño Secundario1.css">
+    </head>
+
+    <body>
+		<audio src="Media Secundario1/Lethal Company Main Menu Theme.mp3" controls autoplay></audio>
+		<h1>Jugador y Amenazas</h1>
+		<hr>
+		<p>
+			Conoce las principales mecánicas del jugador e información de las amenazas que experimetarás
+			en tu aventura. Navega por la página manualmente o usa el siguiente índice.
+		</p>
+		<div id="divíndice">
+			<h2>ÍNDICE</h2>
+			<li><a href="#Jugador">Jugador</a></li>
+			<li><a href="#Monstruos">Monstruos</a></li>
+			<li><a href="#Trampas">Trampas</a></li>
+			<li><a href="#Climas">Climas</a></li><br>
+		</div>
+		<ul>
+		</ul>
+		<hr>
+		<h2 id="Jugador">Jugador</h2>
+        <hr>
+		<p>
+			Tu objetivo es recolectar la suficiente chatarra de las diversas lunas para completar la
+			cuota. El interfaz del jugador se divide en dos, el escaner y el inventarios, el escaner
+			te ayuda para detectar amenazas y chatarras en tu campo de visión, mientras que el inventario
+			te permite cargar hasta cuatro objetos, cosas compradas de la tienda y chatarra, no
+			obstante, mientras más cosas cargues, más difícil será moverte, además de que habrán objetos
+			que tendrás que cargarlos con ambas manos ocupando los espacios vacíos de tu inventario. El
+			jugador tiene la capacidad de correr y saltar, pero tiene stamina, por tanto tendrás que
+			caminar o descansar durante un tiempo para recuperarla. El jugador también puede agacharse,
+			podrás moverte de fomra lenta y silenciosa. En jugador al morir, entrará al modo espectador,
+			acá podrás ver la situación de los demás jugadores que están vivos, solo podras comunicarte
+			con los demás muertos, además de que tendrán la opción de votar para activar el piloto
+			automático en una hora, solo se activará si todos los muertos votan.
+		</p>
+		<div id="divinterfaz">
+			<img id="interfaz" src="Media Secundario1/Interfaz.png">
+		</div><br>
+		<hr>
+		<h2 id="Monstruos">Monstruos</h2>
+        <hr>
+		<p>
+			Mientras vayas explorando la luna elegida, te encontrarás varias amenazas, uno de ellas son
+			los monstruos. Estos se encontrarán tanto fuera y dentro de la instalación.
+		</p>
+		<div id="#divmuerte">
+			<video id="muerte" src="Media Secundario1/Muerte.mp4" controls title="Muerte por Maneater"></video>
+		</div><br>
+		<hr>
+		<table>
+			<caption>MONSTRUOS INTERIORES</caption>
+			<tr>
+				<th>Foto</th>
+				<th>Nombre</th>
+				<th>Dificultad</th>
+				<th>Información</th>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Spore Lizard.png"></td>
+				<td>Spore Lizard</td>
+				<td id="Baja">Baja</td>
+				<td>Al acercarte lo demasiado, solatará gases morados por la boca y te morderá, su
+					daño es bajo.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Hoarding Bug.png"></td>
+				<td>Hoarding Bug</td>
+				<td id="Baja">Baja</td>
+				<td>Estará merodeando por las habitaciones en busca de chatarra, hay una probabilidad
+					de que ande en grupo. Es inofensivo, pero si te acercas lo demasiado te empezará a
+					seguir volando hasta a matarte o cansarse.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Hygrodere.png"></td>
+				<td>Hygrodere</td>
+				<td id="Media">Media</td>
+				<td>Es una especie de gelatina que te seguirá lento, solo te matará si lo tocas por
+					máximo 2 segundos.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Snare Flea.png"></td>
+				<td>Snare Flea</td>
+				<td id="Media">Media</td>
+				<td>Comúnmente estarán por los techos, si pasas por debajo de ella, te atrapará hasta
+					matarte, te puedes salvar si alguien más lo golpea con una pala o si sales de la
+					instalación,</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Butler.png"></td>
+				<td>Butler</td>
+				<td id="Alta">Alta</td>
+				<td>Con su escoba, irá barriendo por las habitaciones y pasillos, procura estar a la
+					compañía de un compañero si lo ves, porque si no, te seguirá con un cuchillo hasta
+					matarte.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Barber.jpg"></td>
+				<td>Barber</td>
+				<td id="Alta">Alta</td>
+				<td>Es el único monstruo invisible que solo puede ser visto si te acercas lo suficiente.
+					Se moverá dando saltos mediante una secuencia de tiempo, con cada salto que de, va
+					cortando delante suyo con sus enormes tijeras.
+				</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Bunker Spider.png"></td>
+				<td>Bunker Spider</td>
+				<td id="Alta">Alta</td>
+				<td>Infestará una zona con su telaraña siendo difícil pasar, evita tocarlo para no
+					llamar su atención. Puedes subirte a un barandal y golpearlo con pala, y que estas
+					no lo treparán.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Thumper.png"></td>
+				<td>Thumper</td>
+				<td id="Alta">Alta</td>
+				<td>Tiene una gran velocidad y fuerza para acabar contigo. Escapa de este o intenta
+					matarlo con una pala dando vueltas en un mismo sitio para que sea más lento.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Maneater.png"></td>
+				<td>Maneater</td>
+				<td id="Alta">Alta</td>
+				<td>Esta criatura aparecerá en forma de bebé, al principio es inofensivo, pero cuando
+					empiece a llorar se transformará en su forma final, aumentando su tamaño, forma,
+					velocidad y agresividad. Cuando se te aparezca en su forma inicial, sosténlo y
+					acarícialo de en vez en cuando para que evites su transformación.
+				</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Bracken.png"></td>
+				<td>Bracken</td>
+				<td id="Alta">Alta</td>
+				<td>Es una sombra que aparecerá ya sea mientras vas caminando por las habitaciones o
+					esté justo detras tuyo. Si los miras durante 4 a 5 segundos, se enojarán y te
+					matarán.
+				</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Nutcracker.jpg"></td>
+				<td>Nutcracker</td>
+				<td id="Alta">Alta</td>
+				<td>Es un soldado robótico, portará un arma y no dudará en usarlo cuando te vea. Para
+					vencerlo, necesitarás acercarte lo más habilidoso posible con una pala, y golpearlo
+					cinco veces en el ojo que se ubica en el cuello de este. Al vencerlo, podrás reclamar
+					su arma y usarlo contra los monstruos.
+				</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Masked.png"></td>
+				<td>Masked</td>
+				<td id="Alta">Alta</td>
+				<td>Los enmascarados toman forma del juegador, solo que estos tienen puesto una máscara
+					y te seguirán incluso fuera de las instalaciones para atraparte y convertirte en
+					uno de ellos. Tiene las mismas habilidades del juegador, como correr, saltar,
+					trepar. Pueden aparecer naturalmente o por sostener en la mano la máscara por mucho
+					tiempo, así que procura no tenerlo en la mano principal.
+				</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Ghost Girl.png"></td>
+				<td>Ghost Girl</td>
+				<td id="Alta">Alta</td>
+				<td>Únicamente los jugadores embrujados podrán verla, no hay forma de salvarte, después
+					de un tiempo te empezará a seguir, incluso fuera de la instalación.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Coil Head.png"></td>
+				<td>Coil Head</td>
+				<td id="Alta">Alta</td>
+				<td>Aparecen de forma repentina, la única forma de defenderte es viéndolo fijamente,
+					de ser contrario, irá a una gran velocidad a acabar contigo.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Jester.png"></td>
+				<td>Jester</td>
+				<td id="Alta">Alta</td>
+				<td>Andará merodeando por las habitaciones, si te ve, no te dejará de seguir. Luego de
+					un tiempo tocará su caja musical, dándote tiempo para correr y escapar de la
+					instalación. No hay forma de vencerlo, solo corre.
+				</td>
+			</tr>
+		</table>
+		<br>
+		<hr>
+		<table>
+			<caption>MONSTRUOS EXTERIORES</caption>
+			<th>Foto</th>
+			<th>Nombre</th>
+			<th>Dificultad</th>
+			<th>Información</th>
+			<tr>
+				<td><img src="Media Secundario1/Manticoil.png"></td>
+				<td>Manticoil</td>
+				<td id="Baja">Baja</td>
+				<td>Son criaturas voladoras, como una especie de aves que si te logran alcanzar, se te
+					pondran sobre la cabeza, si llegan a juntarse de tres a más, ellos tratarán de
+					elevarte y soltarte de una gran altura. Puedes entrar a lugares cerrados o con la
+					ayuda de un amigo los puede quitar con la pala.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Baboon Hawk.png"></td>
+				<td>Baboon Hawk</td>
+				<td id="Media">Media</td>
+				<td>Solo te atacará si te acercas demasiado, cómunmente aparecen en manada y tratarán
+					de rodearte.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Circuit Bees.png"></td>
+				<td>Circuit Bees</td>
+				<td id="Media">Media</td>
+				<td>Son abejas eléctricas que estarán en panales, te empezarán a seguir y picar si
+					estás dentro de su radio</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Earth Leaviathan.png"></td>
+				<td>Earth Leviathan</td>
+				<td id="Alta">Alta</td>
+				<td>Gusanos subterraneos gigantes, esperarán que estés encima suyo para poder
+					deborarte. Cuando el suelo empiece a temblar y levantar tierra, aléjate lo antes
+					posible.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Eyeless Dog.png"></td>
+				<td>Eyeless Dog</td>
+				<td id="Alta">Alta</td>
+				<td>Son perros grandes y ciegos, únicamente son atraídos por cualquier tipo de
+					sonido. Si te los encuentras, mantén tu distancia, guarda silencio, y camina
+					agachado.</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Old Bird.png"></td>
+				<td>Old Bird</td>
+				<td id="Alta">Alta</td>
+				<td>Es un mecha gigante, te atacará disparando misiles desde gran distancia. Sé lo
+					más precavido de no ser visto, de no serlo, huye del lugar, ya que es lento.
+				</td>
+			</tr>
+			<tr>
+				<td><img src="Media Secundario1/Forest Keeper.png"></td>
+				<td>Forest Keeper</td>
+				<td id="Alta">Alta</td>
+				<td>Son literalemente gigantes que si te ven, entra lo más rápido que puedas a las
+					instalaciones o a la nave. Es fácil que te vean, así que escóndete detrás de los
+					árboles mientras caminas agachado.
+				</td>
+			</tr>
+		</table><br>
+		<hr>
+		<h2 id="Trampas">Trampas</h2>
+		<hr>
+		<p>
+			Dentro de las instalaciones se encontrarán trampas que te puede tomar desprevenido.
+		</p>
+		<hr>
+		<div id="divmina">
+			<h2 id="izq">Minas</h2>
+			<img id="mina" src="Media Secundario1/Mina.jpg">
+			<p>
+				Las minas estarán en el suelo, que al ser pisadas explotarán. Se les puede detectar
+				fácilmente, ya que emitirán un sonido al momento de que parpaden.
+			</p>
+		</div><br>
+		<div id="divtorreta">
+			<h2 id="izq">Torreta</h2>
+			<img id="torreta" src="Media Secundario1/Torreta.jpeg">
+			<p>
+				Con su corto campo de visión recorren un total de 180°, así que podrás estar por detrás,
+				si te llega ver, te apuntará y tendrás un momento para correr o de lo contrario se disparará
+				hasta matarte.
+			</p>
+		</div><br>
+		<div id="divpúas">
+			<h2 id="izq">Trampa de púas</h2>
+			<img id="púas" src="Media Secundario1/Trampa de púas.png">
+			<p>
+				Las púas bajan en un tiempo determinado, luego subirán al instante. Asegúrate pasar en el
+				momento bueno para poder pasar.
+			</p>
+		</div>
+		<hr>
+		<h2 id="Climas">Climas</h2>
+		<hr>
+		<p>
+			Habrán lunas que estarán modificadas, provocando que aumente su dificultad aumente.
+		</p>
+		<hr>
+		<h2 id="izq">Inundaciones</h2>
+		<p>
+			Habrán lluvias que provocará inundaciones fuera de las instalaciones. Los jugadores deberán
+			ser rápidos, ya que el agua irá subiendo mienrtas pase el tiempo, al rededor de las 9pm se te
+			será imposible poder moverte.
+		</p>
+		<h2 id="izq">Tormentas</h2>
+		<p>
+			Durante las tormentas, habrán vientos fuertes, acompañados de rayos que te alcanzarán si
+			llevas objetos metálicos en la mano, así que tendrás que ser inteligente para poder llegar
+			a la nave con la chatarra.
+		</p>
+		<h2 id="izq">Eclipse</h2>
+		<p>
+			Las lunas eclipsadas provoca que aumente la cantidad de monstruos tanto fuera y dentro de
+			las instalaciones, además de que la iluminación será oscura al aterrizar e irá aumentando
+			al pasar el tiempo.
+		</p>
+		<a href="../Principal.html">
+			<img id="menú" src="Media Secundario1/Menú.png" title="Volver a la Págia Principal">
+		</a>
+		<a href="../Contenido2/Secundario2.html">
+			<img id="siguiente" src="Media Secundario1/Siguiente.png"
+			title="Siguiente Página (Nave)">
+		</a>
+		<a href="#">
+			<img id="arriba" src="Media Secundario1/Arriba.png" title="Ir Arriba">
+		</a>
+    </body>
+</html>
