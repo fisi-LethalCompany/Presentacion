@@ -1,0 +1,41 @@
+body { background-image: url(Fondo.jpg); background-repeat: no-repeat;
+    background-size: cover; width: 60%; margin: auto;}
+
+li { list-style-type: '🚀 '; font-size: 22px; }
+
+h1 { font-size: 35px; text-align: center; color: red;
+        text-decoration: underline double ;}
+    
+h2 { font-size: 25px; color: red; text-decoration: underline
+        double; text-align: center;}
+    
+p { font-size: 22px; color: white; }
+
+#divíndice { width: 30%; background-image: url(Fondo\ papel.jpg); border:
+        solid red 3px; margin: auto; text-align: center;}
+
+#divmedia { display: flex; justify-content: center; }
+#video { width: 70%; }
+
+#izq { text-align: left; }
+
+#divmonitor { display: flow-root; }
+#monitor { float: right; width: 25%; border: solid 2px yellow; }
+
+#divarmario { display: flow-root; }
+#armario { float: right; width: 25%; border: solid 2px yellow; }
+
+#divcabina { display: flow-root; }
+#cabina { float: right; width: 25%; border: solid 2px yellow; }
+
+#arriba { border: solid 2px white; width: 60px; display:
+        scroll; position: fixed; bottom: 220px; right: 10px;}
+
+#regresar { border: solid 2px white; width: 60px; display:
+        scroll; position: fixed; bottom: 150px; right: 10px;}
+
+#siguiente { border: solid 2px white; width: 60px; display:
+        scroll; position: fixed; bottom: 80px; right: 10px;}
+
+#menú { border: solid 2px white; width: 60px; display:
+        scroll; position: fixed; bottom: 10px; right: 10px;}
